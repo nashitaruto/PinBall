@@ -18,6 +18,6 @@ public class ScoreCounter : MonoBehaviour
     public void AddPoint(int point)
     {
         score = score + point;
-        this.scoreText.GetComponent<Text>().text = score.ToString();
+        this.scoreText.GetComponent<Text>().text = "Score   " +score.ToString();
     }
 }
